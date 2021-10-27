@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Title> 
+    Registration Form 
+    </Title>
+    <h1> 
+        Registration Form
+    </h1>
+    <form action="/process" method = "post">
+    <div>
+        <label> First Name: * </label>
+        <input type ="text" name = "First Name" 
+    </div>
+    <div>
+        <lable> 
+            Last Name: *
+        </lable>
+        <input type ="text" name ="Last Name"
+    </div>
+    <div> 
+        <lable>
+            Email Address: *
+        </lable>
+        <input type="text" name = "Email"
+    </div>
+    <div> 
+        <lable>
+            Password: *
+        </lable>
+        <input type ="password" name= "password">
+    </div>
+    <div>
+        <h5> <em> "Keep it secret, Keep it safe" </em></h5>
+    </div>
+    <div> 
+        <lable> Confirm Password: *</lable>
+        <input type= "password" name= "Confirm"
+    </div>
+    <div>  
+        <lable> 
+        Birthday:  
+        </lable>
+        <input type="date" name="dob"
+    </div>
+    <div> 
+        <lable> 
+            Sex : 
+        </lable>
+    </div>
+    <div>
+        <lable for="male"> 
+            Male
+        </lable>
+        <input type="radio" name="Sex" value="bold" id="Male"
+        <lable for="female">
+            Female 
+        </lable>
+        <input type ="radio" name ="Sex" Value="bold" id="Female"
+    </div>
+    <div> 
+        <Lable> 
+            Tell us about yourself! 
+        </Lable>
+    </div>
+    <div>   
+        <textarea name = "Personal information" cols="20" rows = "4"></textarea>
+        </textarea>
+    </div>
+    <div> 
+        <Lable>
+            Favorite language: 
+        </Lable>
+        <select name = "Languages">
+            <option> HTML </option>
+            <option> JavaScript </option>
+            <option> Spanish </option>'
+            <option> Dwarven </option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="Agree" id="Accept">
+        <lable for="accept"> I swear that I will answer when Gondor calls</lable>
+    </div>
+    <div>
+        <input type="submit" value="Register"
+    </div>
+    <div>
+        <h4> <em> * Indicates a required field </em></h4>
+    </div>
+    </form> 
+
+</body>
+</html>
